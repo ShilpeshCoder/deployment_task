@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require 'aasm'
 
 require_relative "deployment_task/version"
 require_relative "deployment_task/configuration"
