@@ -1,0 +1,18 @@
+# frozen_string_literal: true
+
+DeploymentTask.configure do |config|
+  # Directory where deployment task files are stored
+  # config.task_directory = "lib/deployment_task/tasks"
+
+  # Error reporter — any object responding to call(error, context)
+  # config.error_reporter = ->(error, context) { Bugsnag.notify(error) }
+
+  # Logger — any Logger-compatible object
+  # config.logger = Rails.logger
+
+  # ActiveRecord base class for DeploymentTask::Record
+  # config.record_base_class = "ApplicationRecord"
+
+  # Advisory lock strategy: :database (auto-detect) or :none
+  # config.lock_adapter = :database
+end

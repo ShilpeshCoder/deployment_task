@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+class <%= @class_name %> < DeploymentTask::Base
+  version "<%= @version %>"
+  phase :<%= @phase %>
+  description "TODO: Describe what this task does"
+
+  def execute
+    # TODO: Implement task logic
+  end
+end
